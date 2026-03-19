@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Allison&display=block"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Allison&display=block"
+        rel="stylesheet"
+      />
+    </noscript>
+    <link
+      rel="shortcut icon"
+      href="https://turbotenant-production.s3.amazonaws.com/app-icons/favicon.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://turbotenant-production.s3.amazonaws.com/app-icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://turbotenant-production.s3.amazonaws.com/app-icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://turbotenant-production.s3.amazonaws.com/app-icons/favicon-16x16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="https://turbotenant-production.s3.amazonaws.com/app-icons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#033A6D" />
+    <meta name="apple-mobile-web-app-title" content="TurboTenant" />
+    <meta
+      property="og:image"
+      content="https://turbotenant-production.s3.amazonaws.com/social/social-share-image.jpeg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="672" />
+    <meta
+      property="og:description"
+      content="TurboTenant offers landlord software for advertising rental properties, online applications, screening tenants, collecting rent online and more!"
+    />
+    <meta name="application-name" content="TurboTenant" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>TurboTenant - The Easiest Landlord Software</title>
+    <!-- New PAZ Analytics GTM -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), 'event': 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-M8TBKSP');
+    </script>
+    <script>
+      // load Branch
+      (function (b, r, a, n, c, h, _, s, d, k) {
+        if (!b[n] || !b[n]._q) {
+          for (; s < _.length; ) c(h, _[s++]);
+          d = r.createElement(a);
+          d.async = 1;
+          d.src = 'https://cdn.branch.io/branch-latest.min.js';
+          k = r.getElementsByTagName(a)[0];
+          k.parentNode.insertBefore(d, k);
+          b[n] = h;
+        }
+      })(
+        window,
+        document,
+        'script',
+        'branch',
+        function (b, r) {
+          b[r] = function () {
+            b._q.push([r, arguments]);
+          };
+        },
+        { _q: [], _v: 1 },
+        'addListener banner closeBanner closeJourney data deepview deepviewCta first init link logout removeListener setBranchViewData setIdentity track trackCommerceEvent logEvent disableTracking getBrowserFingerprintId crossPlatformIds lastAttributedTouchData setAPIResponseCallback qrCode'.split(
+          ' ',
+        ),
+        0,
+      );
+      // init Branch
+      branch.init(`key_live_bAnUb4cLN3aMkvhZFGfo1mpgEFaJF9fH`);
+    </script>
+    <!-- End Google Tag Manager -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://widget.reviews.io/badge-ribbon/dist.js"></script>
+    <script type="module" crossorigin src="/assets/main-DMp-rHH6.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/TownhouseColor-CL0PXZqL.js">
+    <link rel="stylesheet" crossorigin href="/assets/TownhouseColor-Ccm4UzaH.css">
+    <link rel="stylesheet" crossorigin href="/assets/main-Dtc2Cm-j.css">
+  </head>
+
+  <body>
+    <!-- New PAZ Analytics GTM -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M8TBKSP"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="root"></div>
+    <script
+      src="https://www.thumbtack.com/embed/pro-list.js"
+      data-iframe-id="thumbtack-pro-list"
+      defer
+    ></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"86047e318959427db804bdb4d76ad929","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
