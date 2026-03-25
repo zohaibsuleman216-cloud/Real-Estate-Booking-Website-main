@@ -18,14 +18,14 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              Rent a quality <br />
-              home and move
-              <br /> in fast
+              Professional <br />
+              Property Management
+              <br /> Made Easy
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Experience flexible payments, trusted co-living, and fast move-ins.</span>
-            <span>Find the perfect home that suits your lifestyle today.</span>
+            <span>Whether you're an owner seeking peace of mind or a tenant looking for the perfect home,</span>
+            <span>Defining Management delivers unparalleled service and trust.</span>
           </div>
 
           {/* <SearchBar/> */}

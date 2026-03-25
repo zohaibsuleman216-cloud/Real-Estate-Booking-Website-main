@@ -9,6 +9,7 @@ const ContactModal = ({ opened, setOpened }) => {
       name: "",
       email: "",
       phone: "",
+      userType: "Owner",
       area: "",
       budget: "",
       message: "",
@@ -17,6 +18,7 @@ const ContactModal = ({ opened, setOpened }) => {
       name: (value) => (value.length < 2 ? "Name must have at least 2 letters" : null),
       email: (value) => (/^\S+@\S+$/.test(value) ? null : "Invalid email format"),
       phone: (value) => (value.length < 10 ? "Invalid phone number" : null),
+      userType: (value) => (value ? null : "Please select an option"),
       area: (value) => (value.length < 2 ? "Please provide an area" : null),
     },
   });
@@ -63,10 +65,21 @@ const ContactModal = ({ opened, setOpened }) => {
           {...form.getInputProps("phone")}
         />
 
+        <Select
+          withAsterisk
+          label="I am a(n):"
+          placeholder="Select an option"
+          data={[
+            { value: 'Owner', label: 'Property Owner (Seeking Management)' },
+            { value: 'Tenant', label: 'Tenant (Seeking a Rental)' },
+          ]}
+          {...form.getInputProps("userType")}
+        />
+
         <TextInput
           withAsterisk
-          label="Interested Area"
-          placeholder="e.g. Downtown, Austin"
+          label="Interested Area or Property City"
+          placeholder="e.g. Los Angeles, Portland"
           {...form.getInputProps("area")}
         />
 

@@ -1,0 +1,52 @@
+.pms-wrapper {
+  background: #f8f9fa;
+  padding: 5rem 0;
+}
+
+.pms-container {
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.pms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.pms-card {
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pms-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pms-header {
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.pms-title {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.pms-desc {
+  color: var(--secondary);
+  font-size: 0.95rem;
+  text-align: left;
+  line-height: 1.6;
+}
