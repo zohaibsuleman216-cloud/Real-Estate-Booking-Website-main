@@ -18,14 +18,14 @@ const Hero = () => {
               type: "ease-in",
             }}
             >
-              Discover <br />
-              Most Suitable
-              <br /> Property
+              Rent a quality <br />
+              home and move
+              <br /> in fast
             </motion.h1>
           </div>
           <div className="flexColStart secondaryText flexhero-des">
-            <span>Find a variety of properties that suit you very easilty</span>
-            <span>Forget all difficulties in finding a residence for you</span>
+            <span>Experience flexible payments, trusted co-living, and fast move-ins.</span>
+            <span>Find the perfect home that suits your lifestyle today.</span>
           </div>
 
           {/* <SearchBar/> */}

@@ -9,11 +9,13 @@ import { useAuth0 } from "@auth0/auth0-react";
 import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModal from "../AddPropertyModal/AddPropertyModal";
 import useAuthCheck from "../../hooks/useAuthCheck.jsx";
+import ContactModal from "../ContactModal/ContactModal";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerColor = useHeaderColor();
   const [modalOpened, setModalOpened] = useState(false);
+  const [contactModalOpened, setContactModalOpened] = useState(false);
   const { loginWithRedirect, isAuthenticated, user, logout } = useAuth0();
   const { validateLogin } = useAuthCheck();
 
@@ -45,7 +47,8 @@ const Header = () => {
           >
             <NavLink to="/properties">Properties</NavLink>
 
-            <a href="mailto:leasing@definingfinancial.com">Contact</a>
+            <div style={{ cursor: 'pointer' }} onClick={() => setContactModalOpened(true)}>Contact Us</div>
+            <ContactModal opened={contactModalOpened} setOpened={setContactModalOpened} />
 
             {/* add property */}
             <div onClick={handleAddPropertyClick}>Add Property</div>
