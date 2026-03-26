@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./GetStarted.css";
+import ContactModal from "../ContactModal/ContactModal";
+
 const GetStarted = () => {
+  const [modalOpened, setModalOpened] = useState(false);
   return (
     <div id="get-started" className="g-wrapper">
       <div className="paddings innerWidth g-container">
@@ -11,11 +14,12 @@ const GetStarted = () => {
             <br />
             Find your residence soon
           </span>
-          <button className="button" href>
-            <a href="mailto:leasing@definingfinancial.com">Get Started</a>
+          <button className="button" onClick={() => setModalOpened(true)}>
+            Get Started
           </button>
         </div>
       </div>
+      <ContactModal opened={modalOpened} setOpened={setModalOpened} />
     </div>
   );
 };

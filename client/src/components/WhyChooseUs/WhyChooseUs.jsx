@@ -35,8 +35,8 @@ const WhyChooseUs = () => {
             transition={{ duration: 1 }}
             viewport={{ once: true }}
           >
-            {/* Reusing existing value image or an appropriate placeholder */}
-            <img src="./value.png" alt="Why Choose Us" />
+            {/* Modern image representing success and management */}
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800" alt="Why Choose Us" />
             
             <div className="wcu-overlay-badge">
               <span className="badge-number">10+</span>

@@ -17,49 +17,57 @@ const services = [
     icon: <MdHomeWork size={40} />,
     title: "Custom Property Listing",
     desc: "Professional photoshoot and search-friendly descriptions maximize who sees your rental.",
-    gradient: "linear-gradient(135deg, #1fa2ff 0%, #12d8fa 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   },
   {
     icon: <MdCampaign size={40} />,
     title: "Marketing & Promotion",
     desc: "We get your listing in front of millions and manage your calendar across top booking sites.",
-    gradient: "linear-gradient(135deg, #ff9966 0%, #ff5e62 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   },
   {
     icon: <MdTrendingUp size={40} />,
     title: "Revenue Optimization",
     desc: "Dynamic rate adjustments and customized strategies help you earn the most in any climate.",
-    gradient: "linear-gradient(135deg, #11998e 0%, #38ef7d 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   },
   {
     icon: <MdForum size={40} />,
     title: "Guest Communications",
     desc: "We tackle questions, check-in details, and review reminders to boost your reputation.",
-    gradient: "linear-gradient(135deg, #8E2DE2 0%, #4A00E0 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   },
   {
     icon: <MdAssignment size={40} />,
     title: "Handle Any Leasing Task",
     desc: "Comprehensive marketing includes eye-catching signage, online marketing, and MLS listings.",
-    gradient: "linear-gradient(135deg, #f12711 0%, #f5af19 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   },
   {
     icon: <MdAssessment size={40} />,
     title: "Accurate Reporting",
     desc: "Timely operating statements provided monthly. Reports can be viewed online or sent via email.",
-    gradient: "linear-gradient(135deg, #654ea3 0%, #eaafc8 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   },
   {
     icon: <MdSavings size={40} />,
     title: "Expense Reduction",
     desc: "Aggressive energy and water conservation strategies. Renegotiation of service contracts.",
-    gradient: "linear-gradient(135deg, #0cebeb 0%, #20e3b2 50%, #29ffc6 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   },
   {
     icon: <MdPayment size={40} />,
     title: "Flexible Payments",
     desc: "Receive fast, secure payouts and manage all financial transactions with total transparency.",
-    gradient: "linear-gradient(135deg, #FC466B 0%, #3F5EFB 100%)"
+    gradient: "linear-gradient(135deg, rgba(31,62,114,0.1) 0%, rgba(31,62,114,0.05) 100%)",
+    iconColor: "var(--blue)"
   }
 ];
 
@@ -111,7 +119,7 @@ const PropertyManagementServices = () => {
             >
               <div 
                 className="pms-icon-wrapper"
-                style={{ background: service.gradient }}
+                style={{ background: service.gradient, color: service.iconColor }}
               >
                 {service.icon}
               </div>

@@ -77,13 +77,13 @@ const Hero = () => {
             >
               <SwiperSlide>
                 <div className="image-container">
-                  <img src="./hero-image.png" alt="houses" />
+                  <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800" alt="Beautiful house exterior" />
                 </div>
               </SwiperSlide>
               {/* Add more SwiperSlides here as needed */}
               <SwiperSlide>
                 <div className="image-container">
-                  <img src="./hero-image.png" alt="houses 2" />
+                  <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800" alt="Modern interior design" />
                 </div>
               </SwiperSlide>
             </Swiper>

@@ -21,9 +21,9 @@ const Website = () => {
     <PropertyManagementServices />
     <WhyChooseUs />
     <CompanyProfile />
-    <Companies />
-    <Residencies/>
-    <Value/>
+    {/* <Companies /> */}
+    {/* <Residencies/> */}
+    {/* <Value/> */}
     <Contact/>
     <GetStarted/>
   </div>
