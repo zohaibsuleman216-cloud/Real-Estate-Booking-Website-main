@@ -6,7 +6,7 @@ import { MdCheckCircle } from "react-icons/md";
 const features = [
   {
     title: "Tech-Driven Approach",
-    desc: "We leverage modern platforms like TurboTenant and Zoho to streamline lead handling and workflows."
+    desc: "We leverage modern, industry-leading management platforms to streamline lead handling and workflows."
   },
   {
     title: "Transparent Communication",
@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
           <span className="orangeText">Why Choose Us</span>
           <span className="primaryText">A Modern Standard of Excellence</span>
           <span className="secondaryText">
-            Founded on principles of transparency, efficiency, and accountability, we bring a tech-driven approach to real estate management that benefits both owners and tenants.
+            Founded on principles of transparency, efficiency, and accountability, we bring a tech-driven approach to property management that benefits both owners and tenants.
           </span>
 
           <div className="wcu-features">

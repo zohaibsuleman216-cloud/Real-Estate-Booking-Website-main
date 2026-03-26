@@ -3,7 +3,7 @@ import "./CompanyProfile.css";
 import { motion, AnimatePresence } from "framer-motion";
 
 const companyData = {
-  overview: "Defining Management is a real estate services company specializing in the acquisition, management, and leasing of residential rental properties. Founded on principles of transparency, efficiency, and accountability, the company provides a modern, tech-driven approach to property and tenant management. Our operational model is built around clearly defined team roles, streamlined digital workflows, and centralized communication.",
+  overview: "Defining Management is a property management services company specializing in the acquisition, management, and leasing of residential rental properties. Founded on principles of transparency, efficiency, and accountability, the company provides a modern, tech-driven approach to property and tenant management. Our operational model is built around clearly defined team roles, streamlined digital workflows, and centralized communication.",
   mission: "Our mission is to simplify the property management process through smart systems, proactive communication, and a consistent standard of excellence—ultimately creating value for both landlords and tenants.",
   objectives: [
     "Maintain operational clarity across all staff roles and processes",
@@ -14,14 +14,14 @@ const companyData = {
     "Maximize property owner returns through proactive management"
   ],
   ecosystem: [
-    { title: "TurboTenant", desc: "Listings, tenant leads, applications, leases, maintenance." },
-    { title: "Roomster", desc: "Marketing platform for lead generation." },
-    { title: "Furnished Finder", desc: "Specialized for furnished rental seekers." },
-    { title: "Google Voice", desc: "Primary phone communication system." },
-    { title: "Zoho One Apps", desc: "CRM for leads, deals, inventory, and workflows." },
-    { title: "Zoho Checkout", desc: "Secure monthly rent collection processing." },
-    { title: "Zoho Cliq", desc: "Internal team communication & coordination." },
-    { title: "Email", desc: "Professional correspondence channel." }
+    { title: "Property Management Software", desc: "Comprehensive solutions for listings, applications, leases, and maintenance." },
+    { title: "Marketing Platforms", desc: "Targeted marketing to generate quality tenant leads." },
+    { title: "Specialized Rentals Hub", desc: "Connecting with seekers for specific rental arrangements." },
+    { title: "Unified Communication", desc: "Centralized phone and instant messaging systems." },
+    { title: "CRM & Workflows", desc: "Streamlined tracking for leads, deals, and internal operations." },
+    { title: "Secure Payments", desc: "Reliable and encrypted monthly rent collection processing." },
+    { title: "Team Collaboration", desc: "Internal chat and project coordination tools." },
+    { title: "Email Services", desc: "Professional and branded correspondence channel." }
   ],
   team: [
     { role: "Owner/Strategic Director", name: "Wendell Catlett" },

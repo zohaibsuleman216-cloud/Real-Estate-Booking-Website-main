@@ -46,7 +46,7 @@ const Residencies = () => {
               backgroundColor: "transparent"
             }} 
             src="https://rental.turbotenant.com/embedpropertylist.html#/QmFzaWNVc2VyUHJvZmlsZTo4MDQ3MDY=" 
-            height="850" 
+            height="3200" 
             width="100%"
           ></iframe>
         </div>

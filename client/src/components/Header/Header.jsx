@@ -45,6 +45,7 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
+            <NavLink to="/">Home</NavLink>
             <NavLink to="/properties">Properties</NavLink>
 
             <div style={{ cursor: 'pointer' }} onClick={() => setContactModalOpened(true)}>Contact Us</div>
