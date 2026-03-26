@@ -2,8 +2,7 @@ import "./Hero.css";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { Autoplay, EffectFade } from "swiper";
-import "swiper/css/effect-fade";
+import { Autoplay } from "swiper";
 
 const banners = [
   {
@@ -46,8 +45,7 @@ const Hero = () => {
   return (
     <section className="hero-wrapper">
       <Swiper
-        modules={[Autoplay, EffectFade]}
-        effect="fade"
+        modules={[Autoplay]}
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         slidesPerView={1}
         className="hero-main-swiper"
