@@ -1,0 +1,141 @@
+.cp-wrapper {
+  background: #f8f9fa; /* slightly off-white for contrast */
+  padding: 4rem 0;
+}
+
+.cp-header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.cp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.cp-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.cp-tab-btn {
+  background: transparent;
+  color: var(--lightBlack);
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cp-tab-btn:hover {
+  background: rgba(31, 62, 114, 0.05); /* very light blue */
+}
+
+.cp-tab-btn.active {
+  background: var(--blue);
+  color: white;
+  box-shadow: 0 4px 10px rgba(31, 62, 114, 0.3);
+}
+
+.cp-tab-content {
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cp-text-box {
+  max-width: 800px;
+  text-align: center;
+}
+
+.cp-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.cp-list li {
+  position: relative;
+  padding-left: 2rem;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.cp-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.cp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.cp-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #fdfdfd;
+  border: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cp-member-card {
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #fdfdfd;
+  border: 1px solid #ebebeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.cp-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--orange-gradient);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cp-card-title {
+  font-weight: 700;
+  color: var(--black);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .cp-content {
+    padding: 1.5rem;
+  }
+}

@@ -2,6 +2,9 @@ import "./Hero.css";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import SearchBar from "../SearchBar/SearchBar";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import "swiper/css";
+import { Autoplay } from "swiper";
 const Hero = () => {
   return (
     <section className="hero-wrapper">
@@ -63,9 +66,27 @@ const Hero = () => {
               duration: 2,
               type: "ease-in",
             }}
-            className="image-container"
+            className="hero-slider-container"
           >
-            <img src="./hero-image.png" alt="houses" />
+            <Swiper
+              modules={[Autoplay]}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              spaceBetween={50}
+              slidesPerView={1}
+              className="hero-swiper"
+            >
+              <SwiperSlide>
+                <div className="image-container">
+                  <img src="./hero-image.png" alt="houses" />
+                </div>
+              </SwiperSlide>
+              {/* Add more SwiperSlides here as needed */}
+              <SwiperSlide>
+                <div className="image-container">
+                  <img src="./hero-image.png" alt="houses 2" />
+                </div>
+              </SwiperSlide>
+            </Swiper>
           </motion.div>
         </div>
       </div>

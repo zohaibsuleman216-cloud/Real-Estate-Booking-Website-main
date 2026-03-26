@@ -1,0 +1,105 @@
+.wcu-wrapper {
+  background: white; /* Optional: adjust if standard wrapper has a different bg */
+  padding-bottom: 2rem;
+}
+
+.wcu-container {
+  align-items: center;
+  gap: 4rem;
+}
+
+.wcu-image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wcu-overlay-badge {
+  position: absolute;
+  bottom: -2rem;
+  right: -2rem;
+  background: white;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-left: 5px solid var(--orange);
+}
+
+.badge-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.badge-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--black);
+  line-height: 1.2;
+}
+
+.wcu-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.wcu-feature-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.02);
+  transition: transform 0.3s ease;
+}
+
+.wcu-feature-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.06);
+}
+
+.wcu-icon {
+  background: rgba(31, 62, 114, 0.1); /* light blue bg */
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wcu-feature-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.wcu-feature-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--black);
+}
+
+.wcu-feature-desc {
+  font-size: 0.9rem;
+  color: var(--lightBlack);
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .wcu-overlay-badge {
+    bottom: -1rem;
+    right: 0;
+    padding: 1rem 1.5rem;
+  }
+  .wcu-container {
+    gap: 2rem;
+  }
+}
