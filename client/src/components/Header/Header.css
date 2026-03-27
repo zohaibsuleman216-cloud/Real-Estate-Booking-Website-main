@@ -13,8 +13,30 @@
 .h-menu {
   gap: 2rem;
 }
+.h-menu > * {
+  position: relative;
+  transition: color 300ms ease;
+  padding-bottom: 0.2rem;
+}
+
 .h-menu > *:hover {
   cursor: pointer;
+  color: #fff;
+}
+
+.h-menu > *:not(.button)::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #00c6ff;
+  transition: width 300ms ease;
+}
+
+.h-menu > *:not(.button):hover::after {
+  width: 100%;
 }
 .menu-icon {
   display: none;

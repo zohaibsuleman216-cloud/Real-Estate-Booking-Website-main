@@ -25,10 +25,10 @@
   font-size: 3.8rem;
   line-height: 4rem;
 }
-.orange-circle {
+.highlight-circle {
   height: 4rem;
   width: 4rem;
-  background: var(--orange-gradient);
+  background: var(--highlight-gradient);
   border-radius: 999px;
   position: absolute;
   right: 28%;
@@ -56,7 +56,7 @@
     font-size: 2rem;
 }
 .stat>:nth-child(1)>:last-child{
-    color: orange;
+    color: #00c6ff;
 }
 /* right side */
 

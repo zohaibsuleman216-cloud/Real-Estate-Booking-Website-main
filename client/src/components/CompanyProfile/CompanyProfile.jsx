@@ -39,7 +39,7 @@ const CompanyProfile = () => {
       <div className="paddings innerWidth cp-container">
         
         <div className="flexColCenter cp-header">
-          <span className="orangeText">About Us</span>
+          <span className="highlightText">About Us</span>
           <span className="primaryText">Who We Are</span>
           <span className="secondaryText">Get to know the ecosystem behind Defining Management.</span>
         </div>

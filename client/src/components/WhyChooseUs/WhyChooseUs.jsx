@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
 
         {/* right side */}
         <div className="flexColStart v-right wcu-right">
-          <span className="orangeText">Why Choose Us</span>
+          <span className="highlightText">Why Choose Us</span>
           <span className="primaryText">A Modern Standard of Excellence</span>
           <span className="secondaryText">
             Founded on principles of transparency, efficiency, and accountability, we bring a tech-driven approach to property management that benefits both owners and tenants.

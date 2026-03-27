@@ -14,7 +14,7 @@ const Residencies = () => {
     <div id="residencies" className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="flexColStart r-head">
-          <span className="orangeText">Find your perfect home</span>
+          <span className="highlightText">Find your perfect home</span>
           <span className="primaryText">Explore our properties</span>
         </div>
         

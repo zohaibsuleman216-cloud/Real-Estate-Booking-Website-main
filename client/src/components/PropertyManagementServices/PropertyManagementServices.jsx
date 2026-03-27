@@ -95,9 +95,9 @@ const PropertyManagementServices = () => {
     <section className="pms-wrapper" id="services">
       <div className="paddings innerWidth flexColCenter pms-container">
         <div className="pms-header-text">
-          <span className="orangeText">Our Services</span>
-          <span className="primaryText">Comprehensive Property Management</span>
-          <span className="secondaryText">Experience hassle-free management with our premium, end-to-end solutions.</span>
+          <span className="highlightText">Our Services</span>
+          <span className="primaryTextLight">Comprehensive Property Management</span>
+          <span className="secondaryTextLight">Experience hassle-free management with our premium, end-to-end solutions.</span>
         </div>
         
         <motion.div 

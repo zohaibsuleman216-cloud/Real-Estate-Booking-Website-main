@@ -10,6 +10,7 @@ import ProfileMenu from "../ProfileMenu/ProfileMenu";
 import AddPropertyModal from "../AddPropertyModal/AddPropertyModal";
 import useAuthCheck from "../../hooks/useAuthCheck.jsx";
 import ContactModal from "../ContactModal/ContactModal";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -26,7 +27,13 @@ const Header = () => {
     }
   };
   return (
-    <section className="h-wrapper" style={{ background: headerColor }}>
+    <motion.section 
+      className="h-wrapper" 
+      style={{ background: headerColor }}
+      initial={{ y: -50, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
+    >
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
         <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '10px', textDecoration: 'none' }}>
@@ -73,7 +80,7 @@ const Header = () => {
           <BiMenuAltRight size={30} />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

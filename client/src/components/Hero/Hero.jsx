@@ -57,7 +57,7 @@ const Hero = () => {
               {/* left side */}
               <div className="flexColStart hero-left">
                 <div className="hero-title">
-                  <div className="orange-circle" />
+                  <div className="highlight-circle" />
                   <motion.h1
                     initial={{ y: "2rem", opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
@@ -70,7 +70,7 @@ const Hero = () => {
                     {banner.title}
                   </motion.h1>
                 </div>
-                <div className="flexColStart secondaryText flexhero-des">
+                <div className="flexColStart secondaryTextLight flexhero-des">
                   {banner.description}
                 </div>
               </div>
