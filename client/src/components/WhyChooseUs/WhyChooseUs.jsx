@@ -36,7 +36,7 @@ const WhyChooseUs = () => {
             viewport={{ once: true }}
           >
             {/* Modern image representing success and management */}
-            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800" alt="Why Choose Us" />
+            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Why Choose Us" />
             
             <div className="wcu-overlay-badge">
               <span className="badge-number">10+</span>

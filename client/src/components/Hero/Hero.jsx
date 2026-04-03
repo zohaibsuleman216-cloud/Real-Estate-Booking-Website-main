@@ -19,7 +19,7 @@ const banners = [
         <span>Defining Management delivers unparalleled service and trust.</span>
       </>
     ),
-    image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/31661836/pexels-photo-31661836.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Beautiful house exterior"
   },
   {
@@ -36,7 +36,7 @@ const banners = [
         <span>ensuring maximum ROI for your investments.</span>
       </>
     ),
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg?auto=compress&cs=tinysrgb&w=800",
     alt: "Modern interior design"
   }
 ];
